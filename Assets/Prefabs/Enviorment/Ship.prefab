@@ -1,0 +1,2029 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7270920912129432275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5961879507042953408}
+  - component: {fileID: 7188056462357103656}
+  - component: {fileID: 2191951074898675558}
+  m_Layer: 0
+  m_Name: Ship
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5961879507042953408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7270920912129432275}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &7188056462357103656
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7270920912129432275}
+  m_Mesh: {fileID: 7613498714166107753, guid: f1635bf096b3485408a0c2bf36acfe46, type: 3}
+--- !u!23 &2191951074898675558
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7270920912129432275}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31987b501a91caa46b5721337510de1a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-9199332153388634316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-9155428798909192719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-9089787414725964363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-8902348887180051695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-8653973525654610755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-8617973426909727435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-8549135133729620870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-8105788226772566128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-8061721909763592568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-7893826295291334216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-7624799240321533241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-7534261576615313009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-7517688698592350597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-7481344883107463616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-7333979103982844097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-7157099980869608438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-6832029339967938490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-6768139771602353128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-6728742513692831892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-6722933485019469331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-6662061242150653447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-6473088414663268900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-6431639414903174485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-6124605415509733008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-6062995784080824148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-5988097236939439068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-5972380205962728411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-5831836742173406267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-5432117200392198607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-5407390817303704277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-5266091484963229827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-5159194732872319494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-5092008691298498837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-5014749514229334669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-4999424548503522230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-4872506866073467342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-4343133960396348851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-4335794325711347492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-4235409630310515103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-4057874781877928736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-3683075325869441787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-3631798342592877629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-3608722063195387079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-3429300131734505071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-3416844744290712307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-3118117910571378470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-3117633220535082174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-3020356456265053513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-2962941990197478869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-2829480015504970926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-2758569747237461780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-2673904815325242399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-2608383629390805537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-2491649842694632267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-2433423171022870818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-2319901079492572078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-2230628472971860433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-2197953486477007095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-2171616491915856132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-1908258729650716785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-1877127574171145912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &-1872236449858529062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-1822252247359064150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-1755273531797694260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-1572999808091063952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-1560545187968554441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-1533500806992214441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-1109888899213143409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-994302334959559436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-945531656867835200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &-880431940592834652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-839201988931109006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &-471867863256115485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-455271043816048757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &-435028686513232782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-342154183106478812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &-239726300805472445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-55621519324873672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &-40184560381750413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &262441278779152227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &311222292508327195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &376473226381456042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &544685966794886371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &917448086503885108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &973120896305198509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &1141521685565339565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &1287205936650645179
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &1450587696228113028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &1496419787797369488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &1522983958204258418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &1527208521336457995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &1611939777566297446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &1994167904597235398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &2412948773552537119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &2575690712770306360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &2657894350375239529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &2864855916141080517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &2936172766868690714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &3035054068350654335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &3281306901780807140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &3326577859825013980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &3406546049067479371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &3445201023502155828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &3535691173527610404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &3584713252179190267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &3636556776674111108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &3707152140292638216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &3867355335118751615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &4317948292105090664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &4485841978785159477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &4616488744822760563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &4700574458822923734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &4779828330821206434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &4814063768265643614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &4895318397752567539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &4982855630581642672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &5363324183596328530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &5505651943228792160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &5537473551203525039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &5681704603963808757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &5683486546045144616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &5715705333302763659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &5763582324351259371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &5857860718733740269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &5878737750168588942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &5957181866155895635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &6031664998829892502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &6125989597454412380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &6133310722707442054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &6152442904413453678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &6425854508269248557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &6484884525413425076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &6808823747727218859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &6923972753681879145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &7045174939548133712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &7072097090675592498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &7154473843097376406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &7213466822991949292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &7267140273673214193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &7433575874295589259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &7492088810375605826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &7500539239523192969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &7516094686208529353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Culled
+  m_EditorClassIdentifier: 
+--- !u!114 &7751799673299159555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &7784280386103160430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &7795310061217805516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &7894216487543986653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &7916364932296176740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &8073415298067800313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &8172923473967455254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &8232548778476107692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &8307879390180136107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &8350791538578030930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &8387110442258966089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &8518880329929030992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 674defa9666114644acc4e06dfbff872, type: 3}
+  m_Name: LOD Set-Ship
+  m_EditorClassIdentifier: 
+--- !u!114 &8536440872575866023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &8598519295031894901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD2
+  m_EditorClassIdentifier: 
+--- !u!114 &8679728265592099577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Hidden
+  m_EditorClassIdentifier: 
+--- !u!114 &8710775113225634697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &8886806274601240291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]LOD1
+  m_EditorClassIdentifier: 
+--- !u!114 &8973603165521303681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 
+--- !u!114 &9081836954181630976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e346fd83135cb5b4aa9730a02b604c38, type: 3}
+  m_Name: Ship[FRende]Nearest
+  m_EditorClassIdentifier: 

@@ -1,0 +1,1505 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16332 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/GitHub/BattleForTheArctic/BattleForTheArctic
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61833
+Successfully changed project path to: D:/GitHub/BattleForTheArctic/BattleForTheArctic
+D:/GitHub/BattleForTheArctic/BattleForTheArctic
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [10648] Host "[IP] 192.168.1.202 [Port] 0 [Flags] 2 [Guid] 2463998528 [EditorId] 2463998528 [Version] 1048832 [Id] WindowsEditor(7,DragonReborn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [10648] Host "[IP] 192.168.1.202 [Port] 0 [Flags] 2 [Guid] 2463998528 [EditorId] 2463998528 [Version] 1048832 [Id] WindowsEditor(7,DragonReborn) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
+Refreshing native plugins compatible for Editor in 14.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path D:/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/GitHub/BattleForTheArctic/BattleForTheArctic/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 Ti (ID=0x1b06)
+    Vendor:   NVIDIA
+    VRAM:     11120 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'D:/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2022.3.10f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/2022.3.10f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009393 seconds.
+- Loaded All Assemblies, in  0.438 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.253 seconds
+Domain Reload Profiling: 691ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (189ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (186ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (192ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.984 seconds
+Refreshing native plugins compatible for Editor in 4.90 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.349 seconds
+Domain Reload Profiling: 2332ms
+	BeginReloadAssembly (179ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (698ms)
+		LoadAssemblies (402ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (401ms)
+			TypeCache.Refresh (341ms)
+				TypeCache.ScanAssembly (313ms)
+			ScanForSourceGeneratedMonoScriptInfo (40ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1349ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1084ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (671ms)
+			ProcessInitializeOnLoadMethodAttributes (271ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Shader 'Digger/Mesh/URP/Lit-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/Terrain/URP/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Digger/Terrain/URP/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7823 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 176 unused Assets / (10.0 MB). Loaded Objects now: 8302.
+Memory consumption went from 456.6 MB to 446.6 MB.
+Total: 7.983000 ms (FindLiveObjects: 0.743500 ms CreateObjectMapping: 0.928800 ms MarkObjects: 3.726200 ms  DeleteObjects: 2.583100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 234762.593730 seconds.
+  path: Assets/Models/InsideIgloo Models/Ice/IceCouch.fbx
+  artifactKey: Guid(e26e73246fe1f5540af65d8599048d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Ice/IceCouch.fbx using Guid(e26e73246fe1f5540af65d8599048d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2260e199191ab98e61d19d67e7e6c16f') in 1.207313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Models/Cave Models/Cave_Entry1.fbx
+  artifactKey: Guid(e2062f2f05cacc141a7343d5f6f385b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Models/Cave_Entry1.fbx using Guid(e2062f2f05cacc141a7343d5f6f385b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a21f4d9f1be4a23ad37def29feabba8') in 0.027646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/Misc Models/Level1Display.fbx
+  artifactKey: Guid(c531d4e4c4bea624d834babf1c81503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Misc Models/Level1Display.fbx using Guid(c531d4e4c4bea624d834babf1c81503d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8523df12334d408f4c94e5893877c2c7') in 0.022052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/InsideIgloo Models/Snow/SnowVase.fbx
+  artifactKey: Guid(33a4bb7824d5a374e8fa48f4ea72fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Snow/SnowVase.fbx using Guid(33a4bb7824d5a374e8fa48f4ea72fe9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90e23b31b56e6fc14ca60e4f7fd5fd6') in 0.021768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Misc Models/Level3Display.fbx
+  artifactKey: Guid(e0798e25909daae47a2872a77bd39558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Misc Models/Level3Display.fbx using Guid(e0798e25909daae47a2872a77bd39558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '185ecfaf6733454bfebc4a714f55151c') in 0.064654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/InsideIgloo Models/Book.fbx
+  artifactKey: Guid(6818e4b5b7b35424ea4d2d0a89dc8ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Book.fbx using Guid(6818e4b5b7b35424ea4d2d0a89dc8ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060dfd688960bafd243734fc27ef0f00') in 0.018485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/InsideIgloo Models/Snow/SnowBed.fbx
+  artifactKey: Guid(8e9d6bbe755deb247bfcfc776eeed082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Snow/SnowBed.fbx using Guid(8e9d6bbe755deb247bfcfc776eeed082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b68552175f799b3b5da07ba9887685b5') in 0.039785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Asset Store/Frost Enviro Ice Assets/Assets/Blocks_Large/Blocks_Large.fbx
+  artifactKey: Guid(1b49b233213108c4c84e239dd2d128db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Frost Enviro Ice Assets/Assets/Blocks_Large/Blocks_Large.fbx using Guid(1b49b233213108c4c84e239dd2d128db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c41dc88a5d5aac6e29789e861fad3d7') in 0.399592 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Models/Platforms Models/LevelPlatformGround4.fbx
+  artifactKey: Guid(798704e1fcb27654d92f3d828def785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platforms Models/LevelPlatformGround4.fbx using Guid(798704e1fcb27654d92f3d828def785b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '043b67801d878b1df8397aaf87dbc87f') in 0.045382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Models/PineTree Models/pine_tree_06.fbx
+  artifactKey: Guid(6164eab2bd7864b4da096c1c1a18c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PineTree Models/pine_tree_06.fbx using Guid(6164eab2bd7864b4da096c1c1a18c9c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4b7d4b7d8618e04b5a4ef08f9225608') in 0.080109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Clouds Models/Cloud_05.fbx
+  artifactKey: Guid(8b276656750fc9a468b842f963a0e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Clouds Models/Cloud_05.fbx using Guid(8b276656750fc9a468b842f963a0e09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295f968dbd42079978ffd03e9d5c02ce') in 0.019854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Cave Models/Cave_Straight.fbx
+  artifactKey: Guid(144d0cde900a0744c9bae5ea7d686d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Models/Cave_Straight.fbx using Guid(144d0cde900a0744c9bae5ea7d686d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bfe9c9c121e75e47d50bf818a5094cd') in 0.026415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/PineTree Models/pine_tree_09.fbx
+  artifactKey: Guid(ee9764d393d2c95439d85bf6c845e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PineTree Models/pine_tree_09.fbx using Guid(ee9764d393d2c95439d85bf6c845e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d87c401307e4faf70d881dfd552a87') in 0.050983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Cave Models/Cave_Room.fbx
+  artifactKey: Guid(bbb5dc160fed18d4c941d162bc60102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Models/Cave_Room.fbx using Guid(bbb5dc160fed18d4c941d162bc60102b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b931e8bd6dbc901c022c9104938a024b') in 0.029972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Models/InsideIgloo Models/Ice/IceFireplaceColumn.fbx
+  artifactKey: Guid(9d4e07c781be8c947aa55bc6a1116b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Ice/IceFireplaceColumn.fbx using Guid(9d4e07c781be8c947aa55bc6a1116b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0c08ab3b7b753ec56ec67cc02479d3') in 0.020860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/IceCreamHeart Models/WrappedIceCream.fbx
+  artifactKey: Guid(6efbdd7b2d54d974381388bfc23e38b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/IceCreamHeart Models/WrappedIceCream.fbx using Guid(6efbdd7b2d54d974381388bfc23e38b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2fc32f21df53b73c7b3c783c43ed35c') in 0.021846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Cave Models/Cave_Entry2.fbx
+  artifactKey: Guid(efeb1115bbfdb434289052b0175dec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Models/Cave_Entry2.fbx using Guid(efeb1115bbfdb434289052b0175dec43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b999c2130368d9a330a88e905fc338ef') in 0.018805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/BorderWall Models/BorderWallLvL2.fbx
+  artifactKey: Guid(51be41da5e8791c41beabd2f3ec64cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BorderWall Models/BorderWallLvL2.fbx using Guid(51be41da5e8791c41beabd2f3ec64cd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e526d22f9d384dff1ccd9b655eb0bd') in 0.028534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Models/PineTree Models/pine_tree_18.fbx
+  artifactKey: Guid(834839abfaefc8f43adc530fabfe53bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PineTree Models/pine_tree_18.fbx using Guid(834839abfaefc8f43adc530fabfe53bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae2e606e838a783c86b3e81632a18f52') in 0.057163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/PineTree Models/pine_tree_05.fbx
+  artifactKey: Guid(bccb57c59d0004d4a8c835dea4153c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PineTree Models/pine_tree_05.fbx using Guid(bccb57c59d0004d4a8c835dea4153c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb85b2f0f7cd7fccc69a56412b05330c') in 0.048801 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/InsideIgloo Models/Ice/IceBookCase.fbx
+  artifactKey: Guid(f554c159601ec6d4585ecd5b0756b93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Ice/IceBookCase.fbx using Guid(f554c159601ec6d4585ecd5b0756b93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c6fa78984aed17b87f67ec160bb3f17') in 0.017485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/PineTree Models/pine_tree_10.fbx
+  artifactKey: Guid(9f1368239c55ddf449d49c1b1e4d3fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PineTree Models/pine_tree_10.fbx using Guid(9f1368239c55ddf449d49c1b1e4d3fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9928596caa8d7d0bf935f95bd100b1ec') in 0.043000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Heart Model/heart.fbx
+  artifactKey: Guid(16436fde4ac86dc49bb78b7671474410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Heart Model/heart.fbx using Guid(16436fde4ac86dc49bb78b7671474410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea129752267629a0bbb4a31948d4b43') in 0.021849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Clouds Models/Cloud_01.fbx
+  artifactKey: Guid(abd9832689ff3244e880cacef1e0bccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Clouds Models/Cloud_01.fbx using Guid(abd9832689ff3244e880cacef1e0bccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9896383cd58b6a5c45e08926ece3a9') in 0.018909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Kennys Models/door.fbx
+  artifactKey: Guid(b3068884985184d4aa67587a78e21bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kennys Models/door.fbx using Guid(b3068884985184d4aa67587a78e21bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2bd0bc8ab42c1e8270b2d373e48ea4') in 0.071956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/Misc Models/Level4Display.fbx
+  artifactKey: Guid(d4cfcbccfd6319243b969b4e112f084a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Misc Models/Level4Display.fbx using Guid(d4cfcbccfd6319243b969b4e112f084a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40597fd4d2ba83c5a3a39f398eab68e2') in 0.018426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Models/Egg Models/Fox_Egg.fbx
+  artifactKey: Guid(2194c703f56366b43a26230b6921ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Egg Models/Fox_Egg.fbx using Guid(2194c703f56366b43a26230b6921ff0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e2851f023bf5d08a0f8c6397950097') in 0.028146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Fish Models Models/DeadFish.fbx
+  artifactKey: Guid(f7b2c2f39a45dae45865ffc9ca4e2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Fish Models Models/DeadFish.fbx using Guid(f7b2c2f39a45dae45865ffc9ca4e2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8755f603adc43326b7f01aee3dd09ab6') in 0.021796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/InsideIgloo Models/Carpet.fbx
+  artifactKey: Guid(c8b444078880e7849a588552c79eed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Carpet.fbx using Guid(c8b444078880e7849a588552c79eed53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c8ac339f88208dc82dc593880f5340a') in 0.019027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Models/InsideIgloo Models/Snow/SnowWardrobe.fbx
+  artifactKey: Guid(b7d42711d815b034a9e45dbadd482a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Snow/SnowWardrobe.fbx using Guid(b7d42711d815b034a9e45dbadd482a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f9989c1c4adb2067e731aee7869c2e') in 0.064237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/PineTree Models/pine_tree_08.fbx
+  artifactKey: Guid(ceb0a02c9053aac4a98a6511593ea05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PineTree Models/pine_tree_08.fbx using Guid(ceb0a02c9053aac4a98a6511593ea05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55b621f56bbdc17f136ee4cd0b29d79') in 0.049780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/CandyCane Models/CandyCane_Green.fbx
+  artifactKey: Guid(068b22944cdc0d64393ca554f3ef4e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CandyCane Models/CandyCane_Green.fbx using Guid(068b22944cdc0d64393ca554f3ef4e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e67051ad5443ef6bf617df9042c7da6') in 0.082974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Models/Cave Models/Cave_Transition.fbx
+  artifactKey: Guid(6654cb5690789214dbeef741f8100380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Models/Cave_Transition.fbx using Guid(6654cb5690789214dbeef741f8100380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5806aca0968a18b9b58839334aa7c410') in 0.016929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/InsideIgloo Models/Ice/IceRailing.fbx
+  artifactKey: Guid(1d773766d81728c4a89c0ac46df3979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Ice/IceRailing.fbx using Guid(1d773766d81728c4a89c0ac46df3979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '359a9e4fa7057250dcbb68a2c6801c3e') in 0.021758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Platforms Models/LevelPlatform4.fbx
+  artifactKey: Guid(dce4a2a1dda1f22489bb020cacbc9ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platforms Models/LevelPlatform4.fbx using Guid(dce4a2a1dda1f22489bb020cacbc9ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8b483c7873523cb18bca9c245825b7') in 0.028458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/InsideIgloo Models/Door.fbx
+  artifactKey: Guid(57f88a15f2efdd34b942fd24022bf6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Door.fbx using Guid(57f88a15f2efdd34b942fd24022bf6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f780ab5d607180c55e582697c2f859c') in 0.033335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/CandyCane Models/CandyCane_Red.fbx
+  artifactKey: Guid(e4bb737d00520e341a4e2d70d38ab1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/CandyCane Models/CandyCane_Red.fbx using Guid(e4bb737d00520e341a4e2d70d38ab1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a758fcfd6ed03ed8689ba39bce53064') in 0.071818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/InsideIgloo Models/Ice/IceBedPlatform.fbx
+  artifactKey: Guid(b46354b07ad1eeb41b66c974801ed75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Ice/IceBedPlatform.fbx using Guid(b46354b07ad1eeb41b66c974801ed75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0b044faf562f691953bb6beae9b814') in 0.020004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Models/BossMap Models/Boss1Map.fbx
+  artifactKey: Guid(90a68eb59f501164c8dd24ab15868b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BossMap Models/Boss1Map.fbx using Guid(90a68eb59f501164c8dd24ab15868b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af0a2ddba13ea9aa949ecff632f22eb1') in 0.055683 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Models/Kennys Models/crate.fbx
+  artifactKey: Guid(bfdcc71cfaf6abf45acb414097c23a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Kennys Models/crate.fbx using Guid(bfdcc71cfaf6abf45acb414097c23a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f365a65b33f77f2093322050f760db06') in 0.041176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/PineTree Models/pine_tree_13.fbx
+  artifactKey: Guid(606d3faaba2da5f45a9cd650f2721dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PineTree Models/pine_tree_13.fbx using Guid(606d3faaba2da5f45a9cd650f2721dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b48cd75882442b18e88f3cf74474e45') in 0.049790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/InsideIgloo Models/Book2.fbx
+  artifactKey: Guid(e97d82e30eb994d4a98c51010f95bd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Book2.fbx using Guid(e97d82e30eb994d4a98c51010f95bd12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd8cb0785c3a53c4b8e547a9ec648dc') in 0.018750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/InsideIgloo Models/Fridge.fbx
+  artifactKey: Guid(0a76fe73b31924d498bf410d845c78fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Fridge.fbx using Guid(0a76fe73b31924d498bf410d845c78fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919f016fa2afae4fa8a107c32340136c') in 0.035557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/Cave Models/Cave_Intersection.fbx
+  artifactKey: Guid(fa485d1ae7224b04a922e7521ac945e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Cave Models/Cave_Intersection.fbx using Guid(fa485d1ae7224b04a922e7521ac945e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957ffb19a22f2de896a37a42e9704d63') in 0.024835 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/Bear Models Models/Bear.FBX
+  artifactKey: Guid(a18cb1127c9c9f142a162d57f1e74d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Bear Models Models/Bear.FBX using Guid(a18cb1127c9c9f142a162d57f1e74d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a54dcb93f6cb0505e271e2dc7f9d60') in 0.094475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 69
+========================================================================
+Received Import Request.
+  Time since last request: 173.923863 seconds.
+  path: Assets/Models/InsideIgloo Models/Ice/Water.fbx
+  artifactKey: Guid(aa6bea4b01992aa4fbf7d3e97ab6ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Ice/Water.fbx using Guid(aa6bea4b01992aa4fbf7d3e97ab6ac90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d2c03db3e5d8f2f2be58aaac03a110') in 0.023883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 14.468818 seconds.
+  path: Assets/Models/PowerupCoin Models/PowerupCoinSnowball.fbx
+  artifactKey: Guid(cbc35c24b64287146afffad4c27c8694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PowerupCoin Models/PowerupCoinSnowball.fbx using Guid(cbc35c24b64287146afffad4c27c8694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3cea945e00a594bf1c42ea86ea0a01e') in 0.021628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/PowerupCoin Models/PowerupCoinSleep.fbx
+  artifactKey: Guid(385f9f40061b7fc45a1162cf7a4184d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PowerupCoin Models/PowerupCoinSleep.fbx using Guid(385f9f40061b7fc45a1162cf7a4184d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4980a5dedc85fbcc7fab758c8872f265') in 0.026366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 1.085643 seconds.
+  path: Assets/Models/InsideIgloo Models/Snow/SnowBedRail.fbx
+  artifactKey: Guid(6275c13f9861aa74d9726638981891bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Snow/SnowBedRail.fbx using Guid(6275c13f9861aa74d9726638981891bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c76ff56c54fb552ad3f56a555b0428f') in 0.021695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/InsideIgloo Models/Snow/SnowBookshelf.fbx
+  artifactKey: Guid(e88a50c2800469740b701dee54fc8e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Snow/SnowBookshelf.fbx using Guid(e88a50c2800469740b701dee54fc8e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1648ef717915c877f642809dd7a90371') in 0.027813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.558729 seconds.
+  path: Assets/Models/InsideIgloo Models/Snow/SnowTable.fbx
+  artifactKey: Guid(5ecb3444acda7324f8990a2377cf3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Snow/SnowTable.fbx using Guid(5ecb3444acda7324f8990a2377cf3ed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d744dc66568c84e824c4d789e839b0d') in 0.022954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Models/Tents Models/Tent_Yellow.fbx
+  artifactKey: Guid(47ead1d374bc8db46b24349dcea18c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Tents Models/Tent_Yellow.fbx using Guid(47ead1d374bc8db46b24349dcea18c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386acd74ef78ab7d178d94bd0bb04034') in 0.099706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/SnowPiles Models/SnowPiles.fbx
+  artifactKey: Guid(efb2ba3aa8bd41b45b37792470fa73dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/SnowPiles Models/SnowPiles.fbx using Guid(efb2ba3aa8bd41b45b37792470fa73dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ac274fe22e0ecfa24507dfa6b85d69') in 0.107602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.032031 seconds.
+  path: Assets/Models/Misc Models/wood_crate.fbx
+  artifactKey: Guid(a3ef1f6714a520346a31de2845cdd15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Misc Models/wood_crate.fbx using Guid(a3ef1f6714a520346a31de2845cdd15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d56fb2bfd649d95d1df96822b49819') in 0.018883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Models/InsideIgloo Models/WoodenBlockade.fbx
+  artifactKey: Guid(30f9e986a9b21bd44992dcf44f6977a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/WoodenBlockade.fbx using Guid(30f9e986a9b21bd44992dcf44f6977a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd66fec4d6b7c110ded19a043d7885ee3') in 0.021594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 743.334792 seconds.
+  path: Assets/Materials/Igloo Mats/IglooHouseAtlas Mat.mat
+  artifactKey: Guid(f0f47297fdf7af04fb925774bef3e7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Igloo Mats/IglooHouseAtlas Mat.mat using Guid(f0f47297fdf7af04fb925774bef3e7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045b6baf284cf7795f244107da111879') in 0.165190 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.062766 seconds.
+  path: Assets/Prefabs/New/Bounce Target.prefab
+  artifactKey: Guid(5b1b04c8b381519419abfbbda4500c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New/Bounce Target.prefab using Guid(5b1b04c8b381519419abfbbda4500c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7669b9c2fc337432e00a56dc600f089') in 0.105025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Prefabs/New/Fan Lift.prefab
+  artifactKey: Guid(4eb5abb0932b61044b6e842afde9c6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New/Fan Lift.prefab using Guid(4eb5abb0932b61044b6e842afde9c6db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dfdd4d93036d3e964d106c1cfd29c6c') in 0.040789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Prefabs/New/Bounce To Target.prefab
+  artifactKey: Guid(f7316affb599435418d22bc2989df846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/New/Bounce To Target.prefab using Guid(f7316affb599435418d22bc2989df846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8550a03c39b9f10687cad341e4d55c') in 0.021628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 82.662228 seconds.
+  path: Assets/Models/GoldenSquid Models/GoldenSquid.fbx
+  artifactKey: Guid(af994972af3cd4d458ee25e6d11e6a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/GoldenSquid Models/GoldenSquid.fbx using Guid(af994972af3cd4d458ee25e6d11e6a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8535971c21550935efe021b163e77dfb') in 0.025434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 359.544145 seconds.
+  path: Assets/Prefabs/Level/PowerupCoinGlide.prefab
+  artifactKey: Guid(ec123cfb96e31e54984b58b5896a14b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level/PowerupCoinGlide.prefab using Guid(ec123cfb96e31e54984b58b5896a14b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3457d772908c7248e309cbaf6d789cb9') in 0.129123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Prefabs/Level/PowerupCoinSliding.prefab
+  artifactKey: Guid(109b3aa2dd20480419be99c8ae7ce431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level/PowerupCoinSliding.prefab using Guid(109b3aa2dd20480419be99c8ae7ce431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50127bf3381e6d893104b1e3a9f1e01') in 0.030496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Prefabs/Level/PowerupCoinSnowball.prefab
+  artifactKey: Guid(76b5cb8f849bdd34eb7fc395ffc9543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Level/PowerupCoinSnowball.prefab using Guid(76b5cb8f849bdd34eb7fc395ffc9543c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73ae2d02536999753010e659bab9492b') in 0.016677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 2078.865146 seconds.
+  path: Assets/Prefabs/Interactables/Cube_Button.prefab
+  artifactKey: Guid(b80e36e80add12a42af0976b37e56eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Interactables/Cube_Button.prefab using Guid(b80e36e80add12a42af0976b37e56eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7727be804f6cab121af60804afa990') in 0.172366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 558.758689 seconds.
+  path: Assets/Materials/PineTree Mats/Bark_Mat.mat
+  artifactKey: Guid(a0cb09c7b35a2354691c0a3f89ac112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PineTree Mats/Bark_Mat.mat using Guid(a0cb09c7b35a2354691c0a3f89ac112d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4ccb7ca0b9728a24766ea58435f158') in 0.043930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Materials/PineTree Mats/leafs_d.mat
+  artifactKey: Guid(7a0662ead0da8994fb8102620d5551aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PineTree Mats/leafs_d.mat using Guid(7a0662ead0da8994fb8102620d5551aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d566cdfe7fa279822636bc2240db56') in 0.023479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/PineTree Mats/leafs_d2.mat
+  artifactKey: Guid(ae359effcd07a14488307c827945c091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PineTree Mats/leafs_d2.mat using Guid(ae359effcd07a14488307c827945c091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e386e5f304dfd2bfe441e0812405c8') in 0.027092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.284297 seconds.
+  path: Assets/Materials/RockSlabs Mats/RockSlab_Upright Mat.mat
+  artifactKey: Guid(d47accb90477cdc4284cb6793e5e0b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/RockSlabs Mats/RockSlab_Upright Mat.mat using Guid(d47accb90477cdc4284cb6793e5e0b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f2b81e773313ec8252b5b9c831cc9f') in 0.251830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 160.162113 seconds.
+  path: Assets/Models/InsideIgloo Models/Snow/SnowLamp.fbx
+  artifactKey: Guid(16127a8306a1e1e469d2fd92949f25c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Snow/SnowLamp.fbx using Guid(16127a8306a1e1e469d2fd92949f25c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c80bc4c0290791660a901c8c69ecef7') in 0.072518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 174.242580 seconds.
+  path: Assets/Models/Rocks Models/Stalagmite1.fbx
+  artifactKey: Guid(cb5e7614d52800343b5998f2ab9d06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rocks Models/Stalagmite1.fbx using Guid(cb5e7614d52800343b5998f2ab9d06a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e956b5b40e25335966af256a19277622') in 0.138119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Models/Rocks Models/Stalagmite2.fbx
+  artifactKey: Guid(cb25d5bd656d937408a5b78a363d7527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Rocks Models/Stalagmite2.fbx using Guid(cb25d5bd656d937408a5b78a363d7527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '671dc4ff4bf8ad7c1478ae4a82cce48c') in 0.154279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 33
+========================================================================
+Received Import Request.
+  Time since last request: 12.782251 seconds.
+  path: Assets/Models/RockSlabs Models/RockSlab5.fbx
+  artifactKey: Guid(755bf8dd4bcebfd46b294a95b387d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RockSlabs Models/RockSlab5.fbx using Guid(755bf8dd4bcebfd46b294a95b387d421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e74e7de995b0490c5bfcdb2f0af77fb') in 0.030757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Models/RockSlabs Models/RockSlab6.fbx
+  artifactKey: Guid(576fb7c1702cf454cb413c8b0a92001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RockSlabs Models/RockSlab6.fbx using Guid(576fb7c1702cf454cb413c8b0a92001e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf7ae619207d8f5db22fe90781a41d2') in 0.022392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.419872 seconds.
+  path: Assets/Models/Unused SnowBarrier Models/SnowBarriers.fbx
+  artifactKey: Guid(8b2d0855c9829e04392b54849ff8e621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Unused SnowBarrier Models/SnowBarriers.fbx using Guid(8b2d0855c9829e04392b54849ff8e621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '897665afc9aa8b13ab9446b697ea8c73') in 0.120632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 73
+========================================================================
+Received Import Request.
+  Time since last request: 11.678941 seconds.
+  path: Assets/Models/Ship Models/Ship.fbx
+  artifactKey: Guid(f1635bf096b3485408a0c2bf36acfe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Ship Models/Ship.fbx using Guid(f1635bf096b3485408a0c2bf36acfe46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59461391d4d05cdde4a00259ecf61974') in 0.035088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/RockSlabs Models/RockSlab3.fbx
+  artifactKey: Guid(a81b8a35121670149be836e7919e2e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/RockSlabs Models/RockSlab3.fbx using Guid(a81b8a35121670149be836e7919e2e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7411b49d83265f04940f57fb6a0c7bed') in 0.022820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.360717 seconds.
+  path: Assets/Models/InsideIgloo Models/Snow/SnowTVStand.fbx
+  artifactKey: Guid(31776d42f020a2a4cbe278736ce61097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/InsideIgloo Models/Snow/SnowTVStand.fbx using Guid(31776d42f020a2a4cbe278736ce61097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebede01ddbc261ac51f146f2b535c2db') in 0.023160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 6.769636 seconds.
+  path: Assets/Materials/Bear Mats/Bear_02.mat
+  artifactKey: Guid(7bcf7368f026dfc4c80078809c5dad2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bear Mats/Bear_02.mat using Guid(7bcf7368f026dfc4c80078809c5dad2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88336c9656f6f9c3e82bc7713a06a558') in 0.034480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Materials/Bear Mats/Bear_04.mat
+  artifactKey: Guid(2f3e0737bd770d44cbfa894f850cf4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bear Mats/Bear_04.mat using Guid(2f3e0737bd770d44cbfa894f850cf4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e7cf59f56744d28b2db6b5475f13a42') in 0.103605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.818511 seconds.
+  path: Assets/Models/PineTree Models/Materials/leafs_d.mat
+  artifactKey: Guid(d81b123690859d14bbb0f16999b18fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PineTree Models/Materials/leafs_d.mat using Guid(d81b123690859d14bbb0f16999b18fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5d8a1dbfc9d01f3a3ba946f632c82f') in 0.015264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Models/PineTree Models/Materials/leafs_d2.mat
+  artifactKey: Guid(5be7ed18174d6dd4b824709e43cef9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/PineTree Models/Materials/leafs_d2.mat using Guid(5be7ed18174d6dd4b824709e43cef9cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1ca06a48065548b30492d66c0e72d7') in 0.016011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.410650 seconds.
+  path: Assets/Asset Store/Frost Enviro Ice Assets/Assets/Blocks_Large/Materials/Large_Blocks.001.mat
+  artifactKey: Guid(e2014934bab9cf942b5bfa733ef02b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Frost Enviro Ice Assets/Assets/Blocks_Large/Materials/Large_Blocks.001.mat using Guid(e2014934bab9cf942b5bfa733ef02b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a7496cad3b7feb9a13fa4a413fe96c') in 0.015555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.912599 seconds.
+  path: Assets/Models/Platforms Models/Platform1.fbx
+  artifactKey: Guid(7a6d591eeec640f43a3ce8e9f1b521d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platforms Models/Platform1.fbx using Guid(7a6d591eeec640f43a3ce8e9f1b521d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e462fa387c9950f5a5d042d8a152317') in 0.059574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Models/Platforms Models/Platform4.fbx
+  artifactKey: Guid(b4d0c93f1c003d84eaf74ae2095546f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platforms Models/Platform4.fbx using Guid(b4d0c93f1c003d84eaf74ae2095546f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d48de599d4f921588768df394f66f6') in 0.108377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Models/Platforms Models/Platform2.fbx
+  artifactKey: Guid(f58468f6a93acbe48a15ba1dc2e4a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Platforms Models/Platform2.fbx using Guid(f58468f6a93acbe48a15ba1dc2e4a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d64efaf2cbcc2e0b648f946a9269796') in 0.051479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Materials/EnemySpawner Mats/RobotSpawner Mat.mat
+  artifactKey: Guid(b5d817a60307b964fa9c8b270ac076d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/EnemySpawner Mats/RobotSpawner Mat.mat using Guid(b5d817a60307b964fa9c8b270ac076d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb12900cbc827501ea859c5b92c42132') in 0.032359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.210867 seconds.
+  path: Assets/Materials/Bear Mats/Bear_06.mat
+  artifactKey: Guid(b4a9a1d1ed2331b438b45099e401183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bear Mats/Bear_06.mat using Guid(b4a9a1d1ed2331b438b45099e401183e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0890374040c810091388e7e353fe68fc') in 0.031477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Materials/Bear Mats/Bear_07.mat
+  artifactKey: Guid(61de935a9b5e85446bc9234553aa4430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Bear Mats/Bear_07.mat using Guid(61de935a9b5e85446bc9234553aa4430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2942ca191d56e21760c3392275062f') in 0.025524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.951633 seconds.
+  path: Assets/Materials/OilPuddle Mats/Goo Mat.mat
+  artifactKey: Guid(c8f7374aac20eed40abcd4e8c65bbe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/OilPuddle Mats/Goo Mat.mat using Guid(c8f7374aac20eed40abcd4e8c65bbe05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f7185c0a8f6097a0826fc21e845769') in 0.018962 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Asset Store/Frost Enviro Ice Assets/Assets/Ice_Floes/Materials/Ice_Floes.001.mat
+  artifactKey: Guid(07b2a3aa8ead37342b071be518317c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Frost Enviro Ice Assets/Assets/Ice_Floes/Materials/Ice_Floes.001.mat using Guid(07b2a3aa8ead37342b071be518317c5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da8e1d7b2340cd1e792711fb31a1a3e') in 0.025213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Asset Store/Frost Enviro Ice Assets/IceEnviorment_Mat.mat
+  artifactKey: Guid(f86efe8f4f3b8204c9b0ccafd370ef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Frost Enviro Ice Assets/IceEnviorment_Mat.mat using Guid(f86efe8f4f3b8204c9b0ccafd370ef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1216991d2025f289a4f81dc8f4910e') in 0.040065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 267.324983 seconds.
+  path: Assets/Prefabs/Interactables/Squid Pickup.prefab
+  artifactKey: Guid(429e6b39e9bdb774990abf7f3380e192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Interactables/Squid Pickup.prefab using Guid(429e6b39e9bdb774990abf7f3380e192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26da2bf99dcbd85d9d681c94212dfc91') in 0.459229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 71.888977 seconds.
+  path: Assets/Materials/Misc Mats/Outline_Gold.mat
+  artifactKey: Guid(409d6e3720fbf3b438d6107995d525f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Misc Mats/Outline_Gold.mat using Guid(409d6e3720fbf3b438d6107995d525f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b933f136756cfb662e998bc595ea601') in 0.027509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 44.190864 seconds.
+  path: Assets/Textures/Ice Textures/Flash.png
+  artifactKey: Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Ice Textures/Flash.png using Guid(497534591604c9c40922a9ea2ef833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76edd5a261d3294e5578b618533bf1a5') in 0.125579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.910 seconds
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 53.541 seconds
+Domain Reload Profiling: 55450ms
+	BeginReloadAssembly (734ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (192ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (247ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (1080ms)
+		LoadAssemblies (1226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (35ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (53542ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (777ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (117ms)
+			ProcessInitializeOnLoadAttributes (593ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (74ms)
+Shader 'Digger/Mesh/URP/Lit-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/Terrain/URP/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Digger/Terrain/URP/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7400 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 129 unused Assets / (10.7 MB). Loaded Objects now: 8483.
+Memory consumption went from 405.3 MB to 394.6 MB.
+Total: 9.468500 ms (FindLiveObjects: 0.755800 ms CreateObjectMapping: 0.987700 ms MarkObjects: 4.791000 ms  DeleteObjects: 2.932900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.694 seconds
+Refreshing native plugins compatible for Editor in 4.75 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.993 seconds
+Domain Reload Profiling: 2686ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (77ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (346ms)
+		LoadAssemblies (420ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1994ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (695ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (112ms)
+			ProcessInitializeOnLoadAttributes (524ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (60ms)
+Shader 'Digger/Mesh/URP/Lit-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/Terrain/URP/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Digger/Terrain/URP/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7394 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (10.7 MB). Loaded Objects now: 8498.
+Memory consumption went from 404.0 MB to 393.3 MB.
+Total: 10.054900 ms (FindLiveObjects: 0.988000 ms CreateObjectMapping: 0.674300 ms MarkObjects: 5.092400 ms  DeleteObjects: 3.299000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.624 seconds
+Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.078 seconds
+Domain Reload Profiling: 2701ms
+	BeginReloadAssembly (218ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (317ms)
+		LoadAssemblies (387ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (2079ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (749ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (585ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (75ms)
+Shader 'Digger/Mesh/URP/Lit-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Hidden/Digger/Terrain/URP/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Terrain/URP/Lit': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' not found
+Shader 'Digger/Terrain/URP/Lit': dependency 'BaseMapGenShader' shader 'Hidden/Universal Render Pipeline/Terrain/Lit (Basemap Gen)' not found
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Terrain/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass2': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass2' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Hidden/Digger/Terrain/URP/Lit (Add Pass)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Digger/Terrain/URP/Lit (Add Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass3': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass3' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass0': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass0' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'Digger/Mesh/URP/Lit-Pass1': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Digger/Mesh/URP/Lit-Pass1' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 5.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7396 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 129 unused Assets / (10.8 MB). Loaded Objects now: 8513.
+Memory consumption went from 404.6 MB to 393.8 MB.
+Total: 8.979400 ms (FindLiveObjects: 1.284000 ms CreateObjectMapping: 1.133900 ms MarkObjects: 4.045800 ms  DeleteObjects: 2.514500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 793.112951 seconds.
+  path: Assets/Asset Store/Frost Enviro Ice Assets/Assets/Blocks/IceBlock 2.prefab
+  artifactKey: Guid(1c25e9af443d63045be77799c914c468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/Frost Enviro Ice Assets/Assets/Blocks/IceBlock 2.prefab using Guid(1c25e9af443d63045be77799c914c468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45f080e5ac4963e9407ae2818836447') in 0.980289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107

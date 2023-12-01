@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4866001945030866333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4866001945030866335}
+  - component: {fileID: 1369791967}
+  - component: {fileID: 2081403347}
+  - component: {fileID: 7695471761459884678}
+  - component: {fileID: 312641120}
+  m_Layer: 12
+  m_Name: Systems Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4866001945030866335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4866001945030866333}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4281646, y: 0.702865, z: 0.42416453}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1369791967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4866001945030866333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96049f6daef2a4bac8f2c95bfc6a5b7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startupPoolMode: 0
+  startupPools:
+  - size: 10
+    prefab: {fileID: 4773852750025833317, guid: b9b885c03768bfe418152b7bf8861a82,
+      type: 3}
+  - size: 5
+    prefab: {fileID: 3693690752762000169, guid: 377cd9a15abc6734b8ce7e5ea24147ed,
+      type: 3}
+  - size: 5
+    prefab: {fileID: 2199778674398700508, guid: 97bf64459f8d22a42a59d525ceb768da,
+      type: 3}
+  - size: 1
+    prefab: {fileID: 2481402191913138135, guid: 21dedab05eca35a4ea7a7a97e03cdf1a,
+      type: 3}
+  - size: 2
+    prefab: {fileID: 8219172339066491768, guid: 1e8d42b6d1059b341bcbcc7241effef0,
+      type: 3}
+--- !u!114 &2081403347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4866001945030866333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55d8d14e779a9884887a7c949b0ffe9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Collectables:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  CurrentLevel:
+    showInInspector: 0
+    Name: Tutorial
+    SceneName: Tutorial
+    LevelCompleted: 0
+    CoinsCollected: 0
+    BonusCollected: 0
+    TotalCoins: 10
+    TotalBonuses: 1
+    Requirements: []
+    StageNumber: 1
+    LevelNumber: 1
+    CollectableObjs:
+    - CollectableType: 1
+      RespawnOnLevelLoad: 1
+      Prefab: {fileID: 6618230058311546765, guid: d5823486b0c616c4b83317181c3e92d1,
+        type: 3}
+      CollectableArgs:
+      - ColType: 1
+        Stage: 0
+        Level: 0
+        CollectableIndex: 0
+        PickupIndex: 0
+        Respawn: 1
+        Collected: 0
+      - ColType: 1
+        Stage: 0
+        Level: 0
+        CollectableIndex: 0
+        PickupIndex: 1
+        Respawn: 1
+        Collected: 0
+      - ColType: 1
+        Stage: 0
+        Level: 0
+        CollectableIndex: 0
+        PickupIndex: 2
+        Respawn: 1
+        Collected: 0
+      - ColType: 1
+        Stage: 0
+        Level: 0
+        CollectableIndex: 0
+        PickupIndex: 3
+        Respawn: 1
+        Collected: 0
+      - ColType: 1
+        Stage: 0
+        Level: 0
+        CollectableIndex: 0
+        PickupIndex: 4
+        Respawn: 1
+        Collected: 0
+    - CollectableType: 4
+      RespawnOnLevelLoad: 1
+      Prefab: {fileID: 898161553, guid: 83f1498934c754842b4cc6b7c89316f9, type: 3}
+      CollectableArgs:
+      - ColType: 4
+        Stage: 0
+        Level: 0
+        CollectableIndex: 1
+        PickupIndex: 0
+        Respawn: 1
+        Collected: 0
+    - CollectableType: 3
+      RespawnOnLevelLoad: 1
+      Prefab: {fileID: 6343662744229119033, guid: f1300d283a5d38a4e84e90d3f198cf76,
+        type: 3}
+      CollectableArgs:
+      - ColType: 3
+        Stage: 0
+        Level: 0
+        CollectableIndex: 2
+        PickupIndex: 0
+        Respawn: 1
+        Collected: 0
+    - CollectableType: 2
+      RespawnOnLevelLoad: 0
+      Prefab: {fileID: 884405266518834056, guid: 429e6b39e9bdb774990abf7f3380e192,
+        type: 3}
+      CollectableArgs:
+      - ColType: 2
+        Stage: 0
+        Level: 0
+        CollectableIndex: 3
+        PickupIndex: 0
+        Respawn: 0
+        Collected: 0
+    BgmTracks:
+    - {fileID: 8300000, guid: 7c247e818e5c4484d9f9eb0cf9d24ecb, type: 3}
+    EndMusic: {fileID: 8300000, guid: 310cba08d28709c4daaee7c1b749ec11, type: 3}
+  Stage: 0
+  Level: 0
+  ResetLevelProgressOnLoad: 1
+--- !u!114 &7695471761459884678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4866001945030866333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28a63ea750400ab448f0ca58abd03df2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoSimulation: 1
+  useInterpolation: 1
+--- !u!114 &312641120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4866001945030866333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: 9eea5648ac73be648aab02c7427c4b01, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 1
+  priority: 0

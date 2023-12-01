@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SnowBall
+  - Enemy
+  - FxTemporaire
+  - Sword
+  - Fire
+  - New tag
+  - Ice
+  - Mud
+  - Water
+  - Boost
+  - ContactRidgidBody
+  - Honey
+  - Grass
+  - Gravity Modifer
+  - Slide
+  - Lift
+  - IceSlide
+  - IceArea
+  - Terrain
+  - ShrinkingPlatform
+  - PlayerShrinkingTrigger
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Projectile
+  - Character
+  - One Way Platform
+  - Dynamic Rigidbody
+  - Trigger
+  - Camera
+  - Interactable
+  - Post Processing
+  - Npc
+  - Npc Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
